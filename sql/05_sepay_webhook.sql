@@ -2,7 +2,7 @@
 -- AURA MODA - T?o b?ng l?u giao d?ch webhook SePay
 -- Ch?y b?ng t?i kho?n c? quy?n CREATE (v? d? root), sau sql/01_schema.sql.
 -- ============================================================================
-USE ivy_moda_shop;
+USE duytrans_ndt; -- ivy_moda_shop
 
 CREATE TABLE IF NOT EXISTS SepayTransactions (
     SepayTransactionId BIGINT UNSIGNED NOT NULL PRIMARY KEY,

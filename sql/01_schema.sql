@@ -24,9 +24,9 @@
 --   - Cột sinh LineTotal dùng GENERATED ALWAYS AS (...) STORED thay cho "AS (...) PERSISTED".
 -- ============================================================================
 
-CREATE DATABASE IF NOT EXISTS ivy_moda_shop
+CREATE DATABASE IF NOT EXISTS duytrans_ndt  -- ivy_moda_shop
   CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci; -- _ai_ci: không phân biệt hoa/thường và dấu, giúp tìm kiếm "ao so mi" ra "Áo sơ mi"
-USE ivy_moda_shop;
+USE duytrans_ndt; -- ivy_moda_shop
 
 -- ----------------------------------------------------------------------------
 -- [UC01] Users: tài khoản và phân quyền (CUSTOMER = Khách hàng, ADMIN = Quản trị viên)

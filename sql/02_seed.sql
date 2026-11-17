@@ -2,7 +2,7 @@
 -- AURA MODA - Dữ liệu mẫu (Tương thích MySQL 5.7+ & MariaDB / XAMPP / Laragon)
 -- File    : 02_seed.sql   (chạy SAU 01_schema.sql)
 -- ============================================================================
-USE ivy_moda_shop;
+USE duytrans_ndt; -- ivy_moda_shop
 
 DELIMITER $$
 
